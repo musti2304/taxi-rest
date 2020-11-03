@@ -64,7 +64,15 @@ class HalteplatzService
             ];
         }
 
-        return array_merge_recursive($hp1, $hp2, $hp3);
+        $mergedArray = array_merge_recursive($hp1, $hp2, $hp3);
+
+        for ($i = 0, $iMax = count($mergedArray); $i < $iMax; $i++) {
+            $arr[] = [
+                'name' => array_keys($mergedArray)[$i],
+                'data' => array_values($mergedArray)[$i]
+            ];
+        }
+        return $arr;
     }
 
 }
