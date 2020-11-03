@@ -1,9 +1,9 @@
 halteplaetze:
   path: /api/v1/halteplaetze
-  controller: App\Controller\HalteplatzController:getHalteplaetze
+  controller: App\Controller\HalteplatzController::getHalteplaetze
   methods: [GET]
 
 users:
   path: /api/v1/users
-  controller: App\Controller\HalteplatzController:getUsers
+  controller: App\Controller\HalteplatzController::getUsers
   methods: [GET]

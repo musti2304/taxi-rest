@@ -69,10 +69,14 @@ class HalteplatzService
         for ($i = 0, $iMax = count($mergedArray); $i < $iMax; $i++) {
             $arr[] = [
                 'name' => array_keys($mergedArray)[$i],
-                'data' => array_values($mergedArray)[$i]
+                'data' => [
+                    array_values($mergedArray)[$i]
+                ]
             ];
         }
-        return $arr;
+        return [
+            'stations' => $arr
+        ];
     }
 
 }
