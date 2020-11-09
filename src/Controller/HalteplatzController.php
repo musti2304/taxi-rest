@@ -11,6 +11,11 @@ use Symfony\Component\HttpFoundation\Response;
 class HalteplatzController extends AbstractController
 {
 
+    public function index(Request $request)
+    {
+        echo "Hello";
+    }
+
     /**
      * GET /halteplaetze
      * @param Request $request
