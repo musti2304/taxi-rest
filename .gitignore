@@ -12,4 +12,3 @@
 /config/config.php
 /.idea/
 symfony.lock
-composer.lock
