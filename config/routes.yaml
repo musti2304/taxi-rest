@@ -1,8 +1,3 @@
-default:
-  path: /
-  controller: App\Controller\HalteplatzController::index
-  methods: [GET]
-
 halteplaetze:
   path: /api/v1/halteplaetze
   controller: App\Controller\HalteplatzController::getHalteplaetze
