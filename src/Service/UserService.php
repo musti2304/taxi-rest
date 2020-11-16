@@ -29,7 +29,7 @@ class UserService
 
     /**
      * @param string $url
-     * @return false|string|string[]
+     * @return string[]|array[]
      */
     public function getUser(string $url)
     {
@@ -50,6 +50,8 @@ class UserService
                 $matches[1][1] => $matches[2][1]
             ];
         }
-        return $responseData;
+        return [
+            $responseData
+            ];
     }
 }
