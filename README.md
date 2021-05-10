@@ -6,4 +6,4 @@
 * Anzeige der Wartezeiten an allen Halteplätzen
 ## Die Schnittstelle wurde mit dem Symfony Framework erstellt
 * Die Daten können von beliebigen Clients (hier insbesondere Apps) abgerufen werden.
-* Clients sind die beiden Projekte "taxi-android" und "taxi-ios"
+* Clients sind die beiden Projekte [taxi-android](https://github.com/musti2304/taxi-android) und [taxi-ios](https://github.com/musti2304/taxi-ios)
